@@ -384,9 +384,17 @@ input[type = "text"] {
 
         /* Checkout/Admin Page */
         table{
-            width: 100%;
+            width: 1%;
             height: 30px;
             
+        }
+
+        th{
+            width: 1%;
+        }
+
+        tr{
+            width: 1%;
         }
 
         .buy-button{
@@ -410,6 +418,9 @@ input[type = "text"] {
 
     } 
 
+
+
+    
   @media screen and (max-width: 720px) {
     
 
@@ -487,6 +498,8 @@ input[type = "text"] {
 
     } 
   }
+
+
 
 
 @media screen and (max-width: 1080px) {
