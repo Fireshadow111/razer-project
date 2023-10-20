@@ -1,0 +1,391 @@
+*{
+    margin: 1%;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+:root{
+    --razerGreen: #44d62c;
+}
+body{
+    background-color: black;
+
+}
+
+
+/* Home Page */
+
+.image-div img{
+    width: 90%;
+    margin-left: 30px;
+}
+
+
+nav{
+    border: solid;
+    border-color: var(--razerGreen);
+    /* background-color: black;
+    animation-name: colorChanger;
+    animation-duration: 4s; */
+}
+
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+   
+   
+}
+
+nav ul li{
+    font-size: 35px;
+    margin-left: 25px;
+    margin-right: 25px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:var(--razerGreen);
+    font-weight: bold;
+
+}
+
+nav ul li a:hover{
+    border-bottom: solid;
+    border-color: var(--razerGreen);
+}
+
+.home-button{
+    color: black;
+    background-color: var(--razerGreen);
+    border-style: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 60px;
+    font-size: 30px;
+    transition: background-color 0.5s;
+    font-weight: bold;
+
+}
+
+.footer{
+    color:var(--razerGreen);
+    text-align: center;
+    margin-top: 400px;
+}
+
+
+
+/* Product Page */
+
+.product-title{
+    color:var(--razerGreen);
+}
+
+.product-price{
+    color:var(--razerGreen);
+}
+
+
+
+.image{
+    width: 100%;
+    
+
+}
+
+#image-container{
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "item1     item2"
+    "item3     item4"
+    "item5     item6"
+}
+
+.buy-button{
+    color: black;
+    background-color: var(--razerGreen);
+    border-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    font-size: 18px;
+    transition: background-color 0.5s;
+    font-weight: bold;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: green;
+}
+
+
+
+/* Checkout/Admin Page */
+
+td{
+    color:var(--razerGreen);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+
+th{
+    color: var(--razerGreen);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    text-align: center;
+}
+
+.table{
+    margin-top: 50px;
+    width:70%;
+    height: 180px;
+    border-color: white;
+
+}
+
+.checkout-div button{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+
+
+
+/* About Page */
+
+.about-head{
+    color:var(--razerGreen);
+    text-align: center;
+    margin-top: 50px;
+    
+
+    background-color: none;
+    animation-name: sideToSide;
+    animation-duration: 3.5s;
+    animation-delay: 2s;
+    position: relative;
+    animation-direction: alternate;
+
+}
+
+.razer-banner{
+  width: 100%;
+  height: 100%;
+  margin-top: 100px;
+  margin-right: 120px;
+ 
+}
+
+.about-body{
+    text-align: center;
+    margin: 0;
+    color: white;
+    margin-top: 20px;
+}
+
+
+
+/* Animations */
+
+    /* @keyframes colorChanger {
+        from{
+            background-color: gray;
+        }
+        
+        to{
+            background-color: black;
+        }
+
+    } */
+
+    
+    @keyframes sideToSide{
+        0%{
+            left: 0px;
+            top: 0px;
+        }
+    
+        25%{
+            left: 500px;
+            top: 0px;
+    
+        }
+    
+        50%{
+            right: 500px;
+           top:0px;
+    
+        }
+    
+        75%{
+            right: 500px;
+            left: -1000px 
+         }
+     
+         100%{
+            left: 0px;
+            top: 0px;
+        }
+    }  
+
+
+
+
+/* Contact Page */
+
+label{
+    color: var(--razerGreen);
+    font-size: 20px;
+}
+
+form{
+    width: 360px;
+    height: 500px;
+    border: solid;
+    border-color: var(--razerGreen);
+    margin-left: 530px;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+input[type = "name"]{
+    margin-top: 30px;
+
+}
+
+input[type = "text"] {
+    width: 350px;
+    height: 40px;
+
+}
+
+.con-logo-div{
+    display: flex;
+    justify-content: center;
+}
+
+.con-logo{
+    height: 60px;
+    width: 70px; 
+}
+
+.con-button{
+    text-align: center;
+    
+}
+
+.con-button button{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+/*Thank You Page */
+
+.thankYou-head{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--razerGreen);
+    margin-top: 300px;
+}
+
+.back-button{
+    color: black;
+    background-color: var(--razerGreen);
+    border-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 20px;
+    font-size: 18px;
+    transition: background-color 0.5s;
+    font-weight: bold;
+    
+}
+
+
+
+
+/* Resopnisive */
+ 
+
+    @media screen and (max-width: 968px) {
+        body{ background-color: black;
+        }
+
+
+          /* Home Page & Product Page */
+        .image{
+            height: 70px;
+            width: 70px;
+        }
+        .home-button{
+            width: 100%px;
+        }
+        .product-title{
+            font-size: 15px;
+        }
+        .product-price{
+            font-size: 12px;
+        }
+        .buy-button{
+            font-size: 12px;
+            padding: 12px;
+
+        }
+        nav{
+            border: none;
+        }
+
+        nav li a{
+           font-size: 16px;
+           margin-left: 0px;
+           margin-right: 0px;
+           
+
+        }
+            /* Contact Page */
+        .about-head{
+            font-size: 30px;
+        }
+
+        .about-body{
+            font-size: 20px;
+        }
+
+        /* Checkout/Admin Page */
+        table{
+            width: 50%;
+            
+        }
+
+        .buy-button{
+            font-size: 15px;
+        }
+
+        /* Contact Page */
+
+        form{
+            margin-left: 42px;
+        }
+
+    } 
+
+
+    
+     
+  
