@@ -523,7 +523,7 @@ input[type = "text"] {
             width: 100%;
           }
         .symbol{
-            width: 100%;
+            width: 600px;
         }
 
         .image-div img{
@@ -532,7 +532,7 @@ input[type = "text"] {
         }
 
         .home-button{
-            width: 200px;
+            width: 350px;
             height: 100px;
             font-size: 20px;
         }
@@ -553,11 +553,7 @@ input[type = "text"] {
         }
 
         nav li a{
-           font-size: 15px;
-           margin-left: 0px;
-           margin-right: 0px;
-        
-           
+           font-size: 30px; 
 
         }
             /* About Page */
@@ -582,8 +578,8 @@ input[type = "text"] {
 
         /* Contact Page */
 
-        form{
-           justify-content: center;
+        .contact{
+            text-align: center;
         }
 
         input[type = "text"]{
