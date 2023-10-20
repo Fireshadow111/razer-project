@@ -339,8 +339,13 @@ input[type = "text"] {
            width: 100%;
         }
 
+        .image-div img{
+            width: 90%;
+            margin-left: 30px;
+        }
+
         .symbol{
-            width: 100%;
+            width: 50%;
             height: 100;
         }
 
@@ -362,7 +367,8 @@ input[type = "text"] {
         }
         nav{
             border: none;
-            max-width: 300px;
+            margin-left: 0;
+            margin-right: 0;
         }
 
         nav li a{
@@ -376,6 +382,7 @@ input[type = "text"] {
             /* About Page */
         .about-head{
             font-size: 30px;
+            text-align: center;
         }
 
         .about-body{
@@ -390,7 +397,7 @@ input[type = "text"] {
         }
 
         th{
-            width: 1%;
+          width: 10px;
         }
 
         tr{
@@ -404,7 +411,6 @@ input[type = "text"] {
         /* Contact Page */
 
         form{
-            margin-left: 42px;
             width: 50%;
         }
 
@@ -427,9 +433,14 @@ input[type = "text"] {
           /* Home Page & Product Page */
           .image{
             width: 100%;
-
+          }
         .symbol{
             width: 100%;
+        }
+    
+        .image-div img{
+            width: 90%;
+            margin-left: 30px;
         }
 
         .home-button{
@@ -451,6 +462,8 @@ input[type = "text"] {
         nav{
             border: none;
             max-width: 720px;
+            margin-left: 0;
+            margin-right: 0;
         }
 
         nav li a{
@@ -497,7 +510,7 @@ input[type = "text"] {
         }
 
     } 
-  }
+  
 
 
 
@@ -508,9 +521,14 @@ input[type = "text"] {
           /* Home Page & Product Page */
           .image{
             width: 100%;
-
+          }
         .symbol{
             width: 100%;
+        }
+
+        .image-div img{
+            width: 90%;
+            margin-left: 30px;
         }
 
         .home-button{
@@ -577,7 +595,7 @@ input[type = "text"] {
         }
 
     } 
-  }
+  
 
 
   
