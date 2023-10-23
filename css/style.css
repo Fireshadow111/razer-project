@@ -17,12 +17,12 @@ body{
 
 .image-div img{
     width: 90%;
-    margin-left: 30px;
+    margin-left: 0px;
 }
 
 
 nav{
-    border: solid;
+    border-style: solid;
     border-color: var(--razerGreen);
     /* background-color: black;
     animation-name: colorChanger;
@@ -329,22 +329,22 @@ input[type = "text"] {
 /* Resopnisive */
  
 
-    @media screen and (max-width: 300px) {
+    @media screen and (min-width: 300px) {
         body{ background-color: black;
         }
           /* Home Page & Product Page */
         
           nav{
             border-style: none;
-            max-width: 300px;
-            margin-left: 10px;
+            height: auto;
+            width: auto;
           }
 
           
 
           nav ul li{
-           margin-left: 0;
-           margin-right: 0;
+           margin-left: auto;
+           margin-right: auto;
           
            
           
@@ -352,18 +352,18 @@ input[type = "text"] {
 
           nav ul li a{
             font-size: 15px;
-            margin-left: 0;
-            margin-right: 9px;
+            margin-left: auto;
+            margin-right: auto;
           }
 
 
           .symbol{
-            width: 500px;
+            width: auto;
           }
 
           .home-button{
-            width: 180px;
-            height: 80px;
+            width: auto;
+            height: auto;
             font-size: 18px;
         
           }
@@ -379,12 +379,12 @@ input[type = "text"] {
 
           .product-title{
             font-size: 16px;
-            margin-bottom: 5px;
+            margin-bottom: auto;
           }
 
           .product-price{
             font-size: 14px;
-            margin-bottom: 5px;
+            margin-bottom: auto;
           }
 
           .buy-button{
@@ -442,13 +442,12 @@ input[type = "text"] {
             justify-content: center;
         }
 
-
         /* Thank You Page */
 
         .thankYou-head{
-            margin-top: 220px;
-            font-size: 20px;
-            margin-bottom: 10px;
+            margin-top: auto;
+            font-size: auto;
+            margin-bottom: auto;
         }
         }
 
@@ -458,21 +457,20 @@ input[type = "text"] {
 
 
 
-          @media screen and (max-width: 720px) {
+          @media screen and (min-width: 720px) {
             body{ background-color: black;
             }
 
             nav{
                 border-style: none;
-                max-width: 720px;
-                margin-left: 10px;
+                margin-left: auto;
               }
     
               
     
               nav ul li{
-               margin-left: 0;
-               margin-right: 0;
+               margin-left: auto;
+               margin-right: auto;
               
                
               
@@ -480,18 +478,18 @@ input[type = "text"] {
     
               nav ul li a{
                 font-size: 30px;
-                margin-left: 0;
-                margin-right: 25px;
+                margin-left: auto;
+                margin-right: auto;
               }
     
     
               .symbol{
-                width: 500px;
+                width: auto;
               }
     
               .home-button{
-                width: 250px;
-                height: 90px;
+                width: auto;
+                height: auto;
                 font-size: 18px;
             
               }
@@ -507,16 +505,16 @@ input[type = "text"] {
     
               .product-title{
                 font-size: 22px;
-                margin-bottom: 5px;
+                margin-bottom: auto;
               }
     
               .product-price{
                 font-size: 18px;
-                margin-bottom: 5px;
+                margin-bottom: auto;
               }
     
               .buy-button{
-                margin-bottom: 5px;
+                margin-bottom: auto;
               }
     
 
@@ -570,18 +568,19 @@ input[type = "text"] {
             }
     
     
+    
             /* Thank You Page */
     
             .thankYou-head{
-                margin-top: 220px;
+                margin-top: auto;
                 font-size: 25px;
-                margin-bottom: 15px;
+                margin-bottom: auto;
             }
     
             }
 
         
-        @media screen and (max-width: 1080px) {
+        @media screen and (min-width: 1080px) {
             body{ background-color: black;
             }
 
@@ -593,17 +592,17 @@ input[type = "text"] {
 
           .product-title{
             font-size: 25px;
-            margin-bottom: 5px;
+            margin-bottom: auto;
           }
 
           .product-price{
             font-size: 20px;
-            margin-bottom: 5px;
+            margin-bottom: auto;
           }
 
           .buy-button{
             font-size: 18px;
-            margin-bottom: 15px;
+            margin-bottom: auto;
           }
 
           /* Checkout/ Admin Page */
@@ -657,13 +656,12 @@ input[type = "text"] {
             justify-content: center;
         }
 
-
         /* Thank You Page */
 
         .thankYou-head{
-            margin-top: 220px;
-            font-size: 20px;
-            margin-bottom: 10px;
+            margin-top: auto;
+            font-size: auto;
+            margin-bottom: auto;
         }
 
         }
