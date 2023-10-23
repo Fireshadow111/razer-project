@@ -391,10 +391,9 @@ input[type = "text"] {
             margin-bottom: 5px;
           }
 
-        }
 
 
-        /* Checkout/ Admin Page */
+          /* Checkout/ Admin Page */
 
         table{
             border: none;
@@ -451,6 +450,10 @@ input[type = "text"] {
             font-size: 20px;
             margin-bottom: 10px;
         }
+        }
+
+
+        
 
 
 
@@ -516,10 +519,8 @@ input[type = "text"] {
                 margin-bottom: 5px;
               }
     
-            }
-    
-    
-            /* Checkout/ Admin Page */
+
+               /* Checkout/ Admin Page */
     
             table{
                 border: solid;
@@ -577,10 +578,9 @@ input[type = "text"] {
                 margin-bottom: 15px;
             }
     
+            }
 
         
-
-
         @media screen and (max-width: 1080px) {
             body{ background-color: black;
             }
@@ -606,10 +606,7 @@ input[type = "text"] {
             margin-bottom: 15px;
           }
 
-        }
-
-
-        /* Checkout/ Admin Page */
+          /* Checkout/ Admin Page */
 
         table{
             border-style: solid 2;
@@ -669,6 +666,10 @@ input[type = "text"] {
             margin-bottom: 10px;
         }
 
+        }
+
+
+        
 
 
         
